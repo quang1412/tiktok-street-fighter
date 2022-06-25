@@ -4510,8 +4510,8 @@ self.C3_ExpressionFuncs = [
 			return () => f0(0, 1, 2);
 		},
 		() => 53,
-		() => "wss://construct-2-ws.glitch.me:3000",
-		() => "wss",
+		() => "ws://localhost:8080",
+		() => "ws",
 		() => "Server connecting...\n",
 		() => "server is connected\nTiktok connecting...\n",
 		() => "server connect failed, please try again\n",

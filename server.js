@@ -4,5 +4,8 @@ const express = require('express');
 const app = express(); 
 const server = app.listen(process.env.PORT || 3000); 
  
-app.use("/assets", express.static(__dirname + '/assets'));
-app.use('/static', express.static(path.join(__dirname, 'public')))
+app.use("/", express.static(__dirname + '/public')); 
+
+app.get('/', function(req, res){
+  res.sendFile('public/index.html' , { root : __dirname});
+})
