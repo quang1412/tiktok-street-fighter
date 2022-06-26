@@ -1,0 +1,22 @@
+{
+  "name": "spritechat",
+  "version": "1.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.15.3",
+    "tiktok-live-connector": "^0.9.20",
+    "microsoft-cognitiveservices-speech-sdk": "^1.21.1",
+    "ws": "^8.8.0"
+  },
+  "engines": {
+    "node": "16.14.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Victoria Kirst (victoriakirst@gmail.com)",
+  "license": "MIT",
+  "description": ""
+}
