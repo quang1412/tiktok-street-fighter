@@ -12,7 +12,7 @@ const { readFileSync } = require('fs');
 const server = createServer({
   cert: readFileSync('cert.pem'),
   key: readFileSync('key.pem')
-}); 
+});      
 
 const wss = new WebSocketServer({ noServer: true });
 
